@@ -3,8 +3,6 @@ import "./nav.css"
 import element from '../../assets/element.png'
 import Editable from '../Editparagraph/Editable'
 
-
-
 const Hero = () => {
 
 
