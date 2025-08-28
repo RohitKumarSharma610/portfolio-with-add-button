@@ -1,6 +1,6 @@
 import './nav.css';
 import navimage from '../../assets/side.png';
-import vector from "../../assets/vector.png"
+import navimage from "../../assets/navimage.png"
 import Hero from './Hero';
 import Buttonmanager from '../buttonmanager';
 
