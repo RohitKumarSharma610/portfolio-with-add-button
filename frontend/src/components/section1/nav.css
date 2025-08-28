@@ -36,8 +36,8 @@ nav button {
 
 .position {
   position: absolute;
-  top: 10px;
-  max-width: 80px;
+  top: 0;
+  right: 223px;
 }
 
 .section1up {
@@ -72,7 +72,7 @@ nav button {
 .position {
   position: absolute;
   top: 0;
-  right: 223px;
+  right: 0;
 }
 
 .designer {
@@ -127,3 +127,117 @@ nav button {
 
 
 
+
+@media (max-width: 1024px) {
+  nav {
+    margin: 30px 50px;
+  }
+
+  nav button {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+
+  .divbutton {
+    gap: 20px;
+  }
+
+  .section1up {
+    margin: 0 50px;
+    width: 400px;
+    max-height: 450px;
+  }
+
+  .hero-name h1 {
+    font-size: 150px;
+    line-height: 140px;
+  }
+
+  .designer {
+    margin: 0 50px;
+    padding: 8px 40px;
+  }
+
+  .designername {
+    font-size: 60px;
+  }
+
+  .hero-para {
+    font-size: 20px;
+    width: 400px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+  }
+
+  .divbutton {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .section1up {
+    margin: 0 auto;
+    width: 90%;
+    max-height: auto;
+  }
+
+  .sec1flex {
+    flex-direction: column;
+    gap: 20px;
+    margin: 40px 0;
+  }
+
+  .hero-name h1 {
+    font-size: 100px;
+    line-height: 90px;
+    text-align: center;
+  }
+
+  .designer {
+    margin: 0 auto;
+    padding: 6px 20px;
+  }
+
+  .designername {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .hero-para {
+    font-size: 18px;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-name h1 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  nav button {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+
+  .designername {
+    font-size: 28px;
+  }
+
+  .hero-para {
+    font-size: 16px;
+  }
+
+  .circle {
+    height: 35px;
+    width: 35px;
+  }
+}

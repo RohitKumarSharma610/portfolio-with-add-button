@@ -108,3 +108,123 @@
     margin: 40px 0;
     color: rgb(192, 192, 192);
 }
+
+@media (max-width: 1024px) {
+    .journey-section {
+        margin: 0 50px;
+        padding: 60px 0;
+    }
+
+    .journey-title {
+        font-size: 120px;
+        line-height: 110px;
+        top: 60px;
+        left: 20px;
+    }
+
+    .journey-img {
+        width: 450px;
+        height: 550px;
+    }
+
+    .number {
+        font-size: 60px;
+    }
+
+    .label {
+        font-size: 20px;
+    }
+
+    .journey-desc {
+        font-size: 32px;
+    }
+
+    .journey-para {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .journey-top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .journey-title {
+        position: static;
+        font-size: 80px;
+        line-height: 90px;
+        margin-bottom: 20px;
+    }
+
+    .journey-center {
+        justify-content: center;
+    }
+
+    .journey-img {
+        width: 80%;
+        height: auto;
+    }
+
+    .journey-right {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .stats {
+        align-items: center;
+    }
+
+    .journey-bottom {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .journey-para {
+        margin: 20px auto;
+        width: 90%;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .journey-section {
+        margin: 0 20px;
+        padding: 40px 0;
+    }
+
+    .journey-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .journey-img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .number {
+        font-size: 40px;
+    }
+
+    .label {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .journey-desc {
+        font-size: 22px;
+    }
+
+    .journey-para {
+        font-size: 16px;
+        line-height: 140%;
+    }
+}

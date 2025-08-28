@@ -95,3 +95,143 @@
   font-size: 40px;
   color: #dfff00;
 }
+
+
+@media (max-width: 1024px) {
+  .sec3 {
+    margin: 0 50px;
+  }
+
+  .exp-title {
+    font-size: 120px;
+    margin: 20px;
+  }
+
+  .exp-flex {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .experience {
+    width: 100%;
+  }
+
+  .exp-resume {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .exp-circle {
+    height: 120px;
+    width: 120px;
+    right: 10%;
+  }
+
+  .exp-role {
+    font-size: 32px;
+  }
+
+  .exp-right {
+    font-size: 18px;
+  }
+
+  .exp-download {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sec3 {
+    margin: 0 30px;
+  }
+
+  .exp-title {
+    font-size: 80px;
+    text-align: center;
+    margin: 10px 0 30px 0;
+  }
+
+  .exp-flex {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .experience {
+    width: 100%;
+    gap: 30px;
+  }
+
+  .experience-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 15px;
+  }
+
+  .exp-circle {
+    height: 90px;
+    width: 90px;
+    top: -15px;
+    right: 5%;
+  }
+
+  .exp-year {
+    font-size: 20px;
+  }
+
+  .exp-role {
+    font-size: 28px;
+  }
+
+  .exp-right {
+    font-size: 16px;
+  }
+
+  .exp-resume {
+    width: 100%;
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .exp-download {
+    font-size: 26px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .sec3 {
+    margin: 0 15px;
+  }
+
+  .exp-title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .exp-circle {
+    height: 70px;
+    width: 70px;
+    top: -10px;
+    right: 0;
+  }
+
+  .exp-year {
+    font-size: 16px;
+  }
+
+  .exp-role {
+    font-size: 22px;
+  }
+
+  .exp-right {
+    font-size: 14px;
+  }
+
+  .exp-resume {
+    font-size: 16px;
+  }
+
+  .exp-download {
+    font-size: 20px;
+  }
+}
