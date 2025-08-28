@@ -1,6 +1,6 @@
 import './nav.css';
 import navimage from '../../assets/side.png';
-import victor from '../../assets/vector.png';
+import vector from "../../assets/vector.png"
 import Hero from './Hero';
 import Buttonmanager from '../buttonmanager';
 
@@ -14,7 +14,7 @@ const Navbar = () => {
         </button>
 
         <div>
-          <img src={victor} alt="" />
+          <img src={vector} alt="" />
         </div>
 
         <div className='divbutton'>
