@@ -1,0 +1,110 @@
+.journey-section {
+
+    margin: 0 100px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.journey-top {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+    max-width: 1400px;
+    width: 100%;
+    position: relative;
+}
+
+.journey-left {
+    flex: 1;
+}
+
+.journey-title {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 165px;
+    line-height: 145px;
+    color: #d3fd06;
+    margin: 0;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    z-index: 10;
+}
+
+.journey-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.journey-img {
+    width: 600px;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 35px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.journey-right {
+    width: 200px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.number {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 80px;
+    color: #d3fd06;
+    font-weight: 700;
+}
+
+.label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #bbb;
+}
+
+.journey-desc {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+    color: rgb(209, 209, 209);
+}
+
+.journey-bottom {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.journey-para {
+    position: relative;
+    flex: 1;
+    font-size: 24px;
+    line-height: 155%;
+    margin: 40px 0;
+    color: rgb(192, 192, 192);
+}

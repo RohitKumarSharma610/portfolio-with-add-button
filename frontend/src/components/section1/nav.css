@@ -1,0 +1,129 @@
+.navimage {
+  background: black;
+  color: beige;
+  width: 108px;
+}
+
+nav {
+  margin: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbutton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+nav button {
+  padding: 12px 26px;
+  background-color: black;
+  border-radius: 30px;
+  color: #bababa;
+  border: white 1px solid;
+  cursor: pointer;
+  font-size: 24px;
+
+}
+
+.divbutton {
+  display: flex;
+  gap: 40px;
+}
+
+.position {
+  position: absolute;
+  top: 10px;
+  max-width: 80px;
+}
+
+.section1up {
+  margin: 0 100px;
+  width: 530px;
+  max-height: 550px;
+  border: 1px white solid;
+  opacity: 1;
+  border-radius: 32px;
+  position: relative;
+  object-fit: cover;
+}
+
+.sec1flex {
+  display: flex;
+  align-items: center;
+  margin: 70px 0;
+  position: relative;
+}
+
+.hero-name h1 {
+  font-family: 'Staatliches', sans-serif;
+  margin: 0;
+  font-weight: 400;
+  font-size: 215px;
+  line-height: 200px;
+  letter-spacing: 0;
+  color: #d3fd06;
+  text-align: left;
+}
+
+.position {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.designer {
+  background-color: #d3fd06;
+  color: black;
+  margin: 0 100px;
+  border-radius: 30px;
+  padding: 10px 60px;
+}
+
+.designername {
+  font-family: 'Staatliches', sans-serif;
+  font-weight: 500;
+  font-size: 80px;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: black;
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-para {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: #bababa;
+  line-height: 155%;
+  width: 530px;
+  height: 74px;
+  margin: 50px 0;
+  margin-left: 100px;
+  position: relative;
+}
+
+
+.hero-para:hover .edit-text {
+  display: inline-block;
+}
+
+
+

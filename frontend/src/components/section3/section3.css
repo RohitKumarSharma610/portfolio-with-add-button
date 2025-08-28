@@ -1,0 +1,97 @@
+.sec3 {
+  margin: 0 100px;
+}
+
+.exp-title {
+  font-family: 'Staatliches', sans-serif;
+  font-weight: 400;
+  font-size: 165px;
+  color: #D3FD06;
+  margin: 30px;
+}
+
+.exp-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 45vw;
+  padding: 20px;
+}
+
+.exp-circle {
+  height: 150px;
+  width: 150px;
+  background: #D3FD06;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 20%;
+  top: -25px;
+}
+
+.experience-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dfff00;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.exp-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.exp-year {
+  color: #dfff00;
+  font-size: 24px;
+}
+
+.exp-role {
+  font-family: 'Staatliches', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+
+.exp-right {
+  color: #a6a5a5;
+  font-size: 20px;
+}
+
+.exp-right1 {
+  color: #f4f4f4;
+}
+
+.exp-role1 {
+  color: #a6a5a5;
+}
+
+.exp-resume {
+  width: 35%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 155%;
+}
+
+.exp-download {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: underline;
+  font-family: "Staatliches", sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  color: #dfff00;
+}

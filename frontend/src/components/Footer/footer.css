@@ -1,0 +1,63 @@
+.footer {
+  font-family: 'Staatliches', sans-serif;
+  font-weight: 400;
+  font-size: 165px;
+  line-height: 145px;
+  color: #D3FD06;
+  text-align: center;
+  margin: 100px;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  border-bottom: #bababa 2px solid;
+}
+
+.footer-about {
+  width: 330px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFFCC;
+
+
+}
+
+.footer-contact,
+.footer-social {
+  width: 240px;
+  /* flex: 1; */
+}
+
+.footer-label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 6px;
+  color: #D3FD06;
+}
+
+.footer-text {
+  font-family: 'Staatliches', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 115%;
+  margin: 0 0 20px 0;
+  color: #bababa;
+}
+
+.footer-copy {
+  margin: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #bababa;
+}

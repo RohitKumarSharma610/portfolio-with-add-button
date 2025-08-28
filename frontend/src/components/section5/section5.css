@@ -1,0 +1,69 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 60px;
+  background: #000;
+  margin: 0 100px;
+}
+
+.img-box {
+  width: 301px;
+  height: 301px;
+  border-radius: 32px;
+  overflow: hidden;
+  position: absolute;
+  right: 10%;
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.service {
+  display: flex;
+  gap: 30px;
+  border-bottom: 4px solid #FFFFFFCC;
+  padding-bottom: 30px;
+}
+
+.num-border {
+  border-bottom: 4px solid #d3fd06;
+}
+
+
+.num {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #FFFFFFCC;
+}
+
+.title {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 128px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #FFFFFFCC;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.num-color {
+  color: #d3fd06;
+  position: relative;
+}
+
+.underline {
+  width: 100%;
+  height: 6px;
+  background: #d3fd06;
+  margin-top: 10px;
+  border-radius: 3px;
+}
