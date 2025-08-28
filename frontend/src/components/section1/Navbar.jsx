@@ -1,9 +1,8 @@
-import React from 'react'
-import './nav.css'
-import navimage from '../../assets/side.png'
-import victor from '../../assets/vector.png'
-import Hero from './Hero'
-import Buttonmanager from '../buttonmanager'
+import './nav.css';
+import navimage from '../../assets/side.png';
+import victor from '../../assets/vector.png';
+import Hero from './Hero';
+import Buttonmanager from '../buttonmanager';
 
 
 const Navbar = () => {
