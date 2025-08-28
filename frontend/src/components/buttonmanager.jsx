@@ -49,17 +49,24 @@ const buttonmanager = () => {
 
     }
 
+  const isTelLink = (link) => {
+  const pattern = /^\+?\d{6,15}$/;
+  return pattern.test(link);
+}
+
     const saveButton = () => {
         if (text.trim() === "" || url.trim() === "") {
             alert("please chek the feild")
             return;
         }
         const pattern = /^(https?:\/\/)?([\w-]+(\.[\w-]+)+)(\/[\w-]*)*(\?.*)?(#.*)?$/i;
-        if (!pattern.test(url)) {
+        if (!pattern.test(url) && !isTelLink(url)) {
             alert("Please enter a valid URL!");
             return;
         }
-        const newBtn = { text, color, size, url }
+        const finalUrl = isTelLink(url) ? `tel:${url}` : url;
+
+        const newBtn = { text, color, size, url:finalUrl }
         if (currentindex !== null) {
             const update = [...buttons];
             update[currentindex] = newBtn;
@@ -96,7 +103,7 @@ const buttonmanager = () => {
                             <div key={ind} className='button-item'>
                                 <div className='main-btn' style={{
                                     backgroundColor: btn.color, padding: btn.size === 'small' ? '2px 6px' : btn.size === 'medium' ? '4px 8px' : '6px 10px',
-                                }}><a className='color-url' href={url} target='_blank'>{btn.text}</a>
+                                }}><a className='color-url'href={btn.url.startsWith("tel:") ? btn.url : btn.url}  target='_blank'>{btn.text}</a>
                                     <div className='edit-btn' onClick={() => openModel(ind)}><MdEdit /></div>
                                 <div className='btn-add' onClick={() => openModel()}>+Add</div>
                                 </div>
