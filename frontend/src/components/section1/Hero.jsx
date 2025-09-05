@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./nav.css"
 import element from '../../assets/element.png'
 import Editable from '../Editparagraph/Editable'
+import ImageReplace from '../ImageReplace/ImageReplace'
 
 const Hero = () => {
 
@@ -10,8 +11,10 @@ const Hero = () => {
 <>
 
         <div className='sec1flex'>
-            <div>
-                <img className='section1up' src="https://images.unsplash.com/photo-1623100426599-4f15cb1715f2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fG1hbnBob3RvfGVufDB8fDB8fHww" alt="portfolio image.." />
+            <div className='section1up' >
+                <ImageReplace 
+                uploadUrl="http://127.0.0.1:5000/upload"
+                defaultImg="https://images.unsplash.com/photo-1623100426599-4f15cb1715f2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fG1hbnBob3RvfGVufDB8fDB8fHww" alt="portfolio image.." />
             </div>
             <div className='hero-name'>
                  <h1>

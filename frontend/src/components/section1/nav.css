@@ -49,6 +49,7 @@ nav button {
   border-radius: 32px;
   position: relative;
   object-fit: cover;
+  overflow: hidden;
 }
 
 .sec1flex {

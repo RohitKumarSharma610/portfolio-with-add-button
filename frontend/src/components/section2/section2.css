@@ -35,10 +35,16 @@
 }
 
 .journey-center {
-    flex: 1;
+    /* flex: 1; */
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 25px;
+    border: 1px solid white;
+    width: 530px;
+    max-height: 550px;
+    position: relative;
+    overflow: hidden;
 }
 
 .journey-img {
